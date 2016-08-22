@@ -8,9 +8,10 @@ profileUpdate.Add(CleverTapSDK.CleverTapProfile.Phone, 4155551234);         //Ph
 profileUpdate.Add(CleverTapSDK.CleverTapProfile.Gender, "M");               // Can be either M or F
 profileUpdate.Add(CleverTapSDK.CleverTapProfile.Employed, "Y");             // Can be either Y or N
 profileUpdate.Add(CleverTapSDK.CleverTapProfile.Education, "Graduate");     // Can be either School, College or Graduate
-profileUpdate.Add(CleverTapSDK.CleverTapProfile.Married, "Y");              // Can be either Y or N
-profileUpdate.Add(CleverTapSDK.CleverTapProfile.DOB, new DateTime());       // Date of Birth. Set the DateTime object to the appropriate value first
-profileUpdate.Add(CleverTapSDK.CleverTapProfile.Age, 28);                   // Not required if DOB is set
+profileUpdate.Add(CleverTapSDK.CleverTapProfile.Married, "Y");                          // Can be either Y or N
+profileUpdate.Add(CleverTapSDK.CleverTapProfile.DOB, new DateTime());                   // Date of Birth. Set the DateTime object to the appropriate value first
+profileUpdate.Add(CleverTapSDK.CleverTapProfile.Age, 28);                               // Not required if DOB is set
+profileUpdate.Add(CleverTapSDK.CleverTapProfile.Photo, "www.foobar.com/image.jpeg");    // URL to the Image
 
 // optional fields. controls whether the user will be sent email, push etc.
 profileUpdate.Add(CleverTapSDK.CleverTapProfile.MSG-email, false);          // Disable email notifications
