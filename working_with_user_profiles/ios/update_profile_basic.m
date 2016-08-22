@@ -16,6 +16,7 @@ NSDictionary *profile = @{
     @"Married": @"Y",               // Can be either Y or N
     @"DOB": d,                      // Date of Birth. An NSDate object
     @"Age": @28,                    // Not required if DOB is set
+    @"Photo": @"www.foobar.com/image.jpeg",  // URL to the image
 
 // optional fields. controls whether the user will be sent email, push etc.
     @"MSG-email": @NO,              // Disable email notifications
