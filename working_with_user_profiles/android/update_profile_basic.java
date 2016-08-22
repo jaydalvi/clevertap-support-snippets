@@ -11,6 +11,7 @@ profileUpdate.put("Education", "Graduate");   // Can be either Graduate, College
 profileUpdate.put("Married", "Y");            // Can be either Y or N
 profileUpdate.put("DOB", new Date());         // Date of Birth. Set the Date object to the appropriate value first
 profileUpdate.put("Age", 28);                 // Not required if DOB is set
+profileUpdate.put("Photo", "www.foobar.com/image.jpeg"); // URL to the image 
 
 // optional fields. controls whether the user will be sent email, push etc.
 profileUpdate.put("MSG-email", false);        // Disable email notifications
